@@ -1,0 +1,22 @@
+/* Estilos complementarios fuera de Tailwind */
+
+body {
+  font-family: 'Jaini', cursive;
+}
+
+
+.overlay {
+  transition: background-color 0.3s ease;
+}
+
+.menu-card:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}

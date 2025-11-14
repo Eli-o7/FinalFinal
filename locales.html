@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuestros Locales</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-white text-gray-800 overflow-y-scroll font-serif">
+
+    <header class="bg-[#273D62] text-white py-4 px-10 flex justify-between items-center h-20">
+      <div class="logo">
+        <img src="imagenes/logo.jpg" alt="Logo 3R Regiones" class="h-12" />
+      </div>
+
+      <nav>
+        <ul class="flex items-center gap-8">
+          <li><a href="carta.html" class="text-white text-lg font-medium hover:text-opacity-80">Carta</a></li>
+          <li><a href="locales.html" class="text-white text-lg font-medium hover:text-opacity-80">Locales</a></li>
+          <li><a href="nosotros.html" class="text-white text-lg font-medium hover:text-opacity-80">Nosotros</a></li>
+          <li><a href="reserva.html" class="text-white text-lg font-medium hover:text-opacity-80 border-2 border-white py-2 px-4 rounded-md font-bold uppercase transition-colors hover:bg-white hover:text-[#2c3e50]">Reserva</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="relative h-[60vh] bg-cover bg-center flex items-center justify-center" style="background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/b9/15/9e/salon-principal.jpg?w=900&h=500&s=1');">
+      <div class="absolute inset-0 bg-black opacity-40"></div>
+      <h1 class="relative text-white text-5xl text-center z-10 mt-12">Nuestros Locales</h1>
+    </section>
+
+
+    <section class="py-16 px-5 max-w-5xl mx-auto">
+      <div class="local mb-20">
+        <h2 class="text-[#1d3b6a] text-2xl font-bold mb-2">Jauja</h2>
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Local Jauja" class="w-full h-52 object-cover rounded-lg mb-4" />
+        <p class="text-base leading-6 mb-1">Calle 2 de Mayo 298, Jauja.</p>
+        <p class="text-base leading-6 mb-1">Lun a sáb de 12 pm a 11 pm | Dom de 12 pm a 6 pm</p>
+        <p class="text-base leading-6 mb-1">Cel: +51 994 150 263 / Telf: 01 242 5957 Anexo 2.</p>
+        <a href="#" class="text-[#1d3b6a] underline font-bold">Ver mapa</a>
+      </div>
+
+      <div class="local mb-20">
+        <h2 class="text-[#1d3b6a] text-2xl font-bold mb-2">Miraflores</h2>
+        <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c" alt="Local Miraflores" class="w-full h-52 object-cover rounded-lg mb-4" />
+        <p class="text-base leading-6 mb-1">Calle 8 de octubre, Miraflores, Lima.</p>
+        <p class="text-base leading-6 mb-1">Lun a sáb de 12 pm a 11 pm | Dom de 12 pm a 6 pm</p>
+        <p class="text-base leading-6 mb-1">Cel: +51 994 150 263 / Telf: 01 242 5957 Anexo 1.</p>
+        <a href="#" class="text-[#1d3b6a] underline font-bold">Ver mapa</a>
+      </div>
+    </section>
+
+    <footer class="text-center py-5 bg-[#1d3b6a] text-white text-sm">
+      © 2025 3R Regiones.
+    </footer>
+
+  </body>
+</html>

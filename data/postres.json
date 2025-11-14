@@ -1,0 +1,54 @@
+
+[
+  {
+    "region": "Costa",
+    "items": [
+      {
+        "nombre": "Mazamorra morada",
+        "precio": 11,
+        "puntuacion": 5,
+        "imagen": "https://iperu.pe/assets/images/mazamorra-morada_800x534.webp"
+      },
+      {
+        "nombre": "Arroz con leche",
+        "precio": 10,
+        "puntuacion": 5,
+        "imagen": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTfyUDobDO4O1bYs9xYvNY4Y89w-M7wh--sZduKJCooUAUjVpd1"
+      }
+    ]
+  },
+  {
+    "region": "Sierra",
+    "items": [
+      {
+        "nombre": "Mazamorra de calabaza",
+        "precio": 12,
+        "puntuacion": 5,
+        "imagen": "https://buenazo.cronosmedia.glr.pe/original/2021/05/24/60ac125614374d27e25b6587.jpg"
+      },
+      {
+        "nombre": "Kinkón",
+        "precio": 10,
+        "puntuacion": 4,
+        "imagen": "https://cdn-blog.joinnus.com/wp-content/uploads/2023/11/24095341/kingkong-1024x600.jpg"
+      }
+    ]
+  },
+  {
+    "region": "Selva",
+    "items": [
+      {
+        "nombre": "Picarones",
+        "precio": 15,
+        "puntuacion": 5,
+        "imagen": "https://comidaperuanaweb.org/wp-content/uploads/2024/10/10-postres-tipicos-de-la-selva-peruana-4.jpg"
+      },
+      {
+        "nombre": "Granizado de sandía",
+        "precio": 12,
+        "puntuacion": 4,
+        "imagen": "https://cdn.nutritionstudies.org/wp-content/uploads/2015/06/watermelon-sorbet-3-1024x683.jpg"
+      }
+    ]
+  }
+]

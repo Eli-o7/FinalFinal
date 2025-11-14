@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La carta</title>
+
+  <!-- 🌀 Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- 🪶 Fuente Jaini -->
+  <link href="https://fonts.googleapis.com/css2?family=Jaini&display=swap" rel="stylesheet">
+
+  <!-- 🎨 Tus estilos -->
+  <link rel="stylesheet" href="stylesC.css" />
+</head>
+
+
+  <body class="bg-gray-100 font-sans">
+
+    <!-- Sección principal -->
+    <section
+      class="min-h-screen flex flex-col items-center justify-center text-center bg-gray-100 
+             border-t-[60px] border-b-[60px] border-[#1a2d4a] px-4"
+    >
+      <!-- Encabezado -->
+      <header class="mb-10">
+        <h1 class="text-8xl md:text-8xl text-[#1a2d4a] mb-7 font-normal" style="font-family: 'Jaini', cursive;">
+  La carta
+</h1>
+
+
+        <p class="text-[#1a2d4a] text-base md:text-lg font-medium max-w-xl mx-auto font-normal" style="font-family: 'Jaini', cursive;">
+          Nuestra cocina rinde homenaje a la tradición limeña y se celebra en la mesa con generosidad.
+        </p>
+      </header>
+
+      <!-- Tarjetas -->
+      <div class="flex flex-wrap justify-center gap-8">
+        <!-- Platillos -->
+        <div
+         class="menu-card w-[235px] h-[395px] relative overflow-hidden rounded-md cursor-pointer 
+                    border-4 border-transparent transition-all duration-300 hover:scale-105 hover:border-[#d4af37]"
+        >
+
+          <img
+            src="https://img.freepik.com/foto-gratis/arreglo-comida-brasilena-alto-angulo_23-2148725054.jpg?w=360"
+            alt="Platillos"
+            class="w-full h-full object-cover brightness-75 transition duration-300 hover:brightness-60"
+          />
+          <div class="overlay absolute inset-0 flex items-center justify-center">
+            <h2 class="text-white text-5xl font-bold drop-shadow-lg font-normal" style="font-family: 'Jaini', cursive;"><a href="platillos.html">Platillos</a></h2>
+          </div>
+        </div>
+
+        <!-- Postres -->
+        <div
+         class="menu-card w-[235px] h-[395px] relative overflow-hidden rounded-md cursor-pointer 
+                    border-4 border-transparent transition-all duration-300 hover:scale-105 hover:border-[#d4af37]"
+        >
+          <img
+            src="https://andeangreattreks.com/wp-content/uploads/peruvian-desserts-1.jpg"
+            alt="Postres"
+            class="w-full h-full object-cover brightness-75 transition duration-300 hover:brightness-60"
+          />
+          <div class="overlay absolute inset-0 flex items-center justify-center">
+            <h2 class="text-white text-5xl font-bold drop-shadow-lg font-normal" style="font-family: 'Jaini', cursive;"><a href="postres.html">Postres</a></h2>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+  </body>
+</html>

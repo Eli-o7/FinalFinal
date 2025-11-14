@@ -1,0 +1,14 @@
+{
+  "locales": [
+    { "id": 1, 
+    "nombre": "Local Jauja", 
+    "direccion": "Calle 2 de Mayo 298, Jauja.", 
+    "telefono": "Cel: +51 994 150 263 / Telf: 01 242 5957 Anexo 2." 
+    },
+    { "id": 2, 
+    "nombre": "Local Miraflores", 
+    "direccion": "Calle 8 de octubre, Miraflores, Lima.", 
+    "telefono": "Cel: +51 994 150 263 / Telf: 01 242 5957 Anexo 1." 
+    }
+  ]
+}

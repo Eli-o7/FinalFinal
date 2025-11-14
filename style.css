@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Georgia", serif;
+  background-color: #fff;
+  color: #222;
+  overflow-y: scroll;
+}
+
+header {
+  background-color: #273D62;
+  color: white;
+  padding: 15px 40px;
+  height: 80px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.btn-reserva {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-reserva:hover {
+  background-color: white;
+  color: #2c3e50;
+}
+
+.hero-section {
+    position: relative;
+    height: 90vh;
+    
+    background-image: url('imagenes/fondo2.jpg'); 
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+.hero-section h2 {
+    color: white;
+    font-size: 68px; 
+    line-height: 1.1; 
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.divider-diamond {
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1d3b6a;
+  color: white;
+  font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    header nav ul {
+        gap: 15px;
+        margin-top: 10px;
+    }
+    
+    .hero-section {
+        height: 60vh;
+        padding-left: 5%;
+    }
+
+    .hero-section h2 {
+        font-size: 40px; 
+    }
+
+    .info-btn {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+    }
+}

@@ -1,0 +1,18 @@
+
+    .container {
+      width: 80%;
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    ul li:hover {
+      color: #f8a500;
+    }
+    
+    ul li:hover .fas, ul li:hover .fab {
+      color: #f8a500;
+    }

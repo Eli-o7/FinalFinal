@@ -1,0 +1,113 @@
+
+      .coin {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background: url("imagenes/hamburguesa.jpg") no-repeat center center;
+        background-size: contain;
+        border-radius: 50%;
+        background-color: orange;
+        border: 2px solid #ffa500;
+        z-index: 10;
+      }
+
+      .font-header-custom {
+        font-family: "Playfair Display", Georgia, serif;
+      }
+      .font-body-custom {
+        font-family: "Lora", Georgia, serif;
+      }
+
+      .modal-hidden {
+        display: none;
+      }
+
+
+body {
+  font-family: "Georgia", serif;
+  background-color: #fff;
+  color: #222;
+  overflow-y: scroll;
+}
+
+header {
+  background-color: #273D62;
+  color: white;
+  padding: 15px 40px;
+  height: 80px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.btn-reserva {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-reserva:hover {
+  background-color: white;
+  color: #2c3e50;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1d3b6a;
+  color: white;
+  font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    header nav ul {
+        gap: 15px;
+        margin-top: 10px;
+    }
+    
+    .hero-section {
+        height: 60vh;
+        padding-left: 5%;
+    }
+
+    .hero-section h2 {
+        font-size: 40px; 
+    }
+
+    .info-btn {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+    }
+}

@@ -1,0 +1,19 @@
+/* Estilo para el fondo de la página con filtro */
+main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/18/bf/87/10/terrace-view.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.4);
+  z-index: -1;
+}
+
+/* Para sombra de texto si la quieres personalizar */
+.text-shadow-md {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
