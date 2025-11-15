@@ -4,64 +4,127 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>3R Regiones | Reserva</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="stylesR.css" />
   </head>
   <body class="bg-gray-100">
-
     <header>
-        <div class="logo">
-            <img src="imagenes/logo.jpg" alt="Logo 3R Regiones">
-        </div>
+      <div class="logo">
+        <img src="imagenes/logo.jpg" alt="Logo 3R Regiones" />
+      </div>
 
-        <nav>
-            <ul>
-                <li><a href="carta.html">Carta</a></li>
-                <li><a href="locales.html">Locales</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="reserva.html" class="btn-reserva">Reserva</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="carta.html">Carta</a></li>
+          <li><a href="locales.html">Locales</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="reserva.html" class="btn-reserva">Reserva</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <main class="flex justify-center items-center min-h-[calc(100vh-80px)] p-4 relative">
-      <div class="absolute top-0 left-0 right-0 bottom-0 bg-cover bg-center opacity-40"
-           style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/18/bf/87/10/terrace-view.jpg');"></div>
-      <div class="relative bg-black bg-opacity-50 p-8 rounded-lg max-w-4xl w-full z-10">
-        <h1 class="text-4xl text-white text-center mb-6 font-serif tracking-widest">Reserva</h1>
-        <form class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+    <main
+      class="flex justify-center items-center min-h-[calc(100vh-80px)] p-4 relative"
+    >
+      <div
+        class="absolute top-0 left-0 right-0 bottom-0 bg-cover bg-center opacity-40"
+        style="
+          background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/18/bf/87/10/terrace-view.jpg');
+        "
+      ></div>
+      <div
+        class="relative bg-black bg-opacity-50 p-8 rounded-lg max-w-4xl w-full z-10"
+      >
+        <h1
+          class="text-4xl text-white text-center mb-6 font-serif tracking-widest"
+        >
+          Reserva
+        </h1>
+        <form class="grid grid-cols-2 md:grid-cols-1 gap-6">
           <div class="form-group">
             <label for="nombre" class="block text-white mb-2">Nombre</label>
-            <input type="text" id="nombre" name="nombre" class="w-full p-3 rounded-lg bg-white text-gray-800" required />
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              class="w-full p-3 rounded-lg bg-white text-gray-800"
+              required
+            />
           </div>
           <div class="form-group">
-            <label for="correo" class="block text-white mb-2">Correo electrónico</label>
-            <input type="email" id="correo" name="correo" class="w-full p-3 rounded-lg bg-white text-gray-800" required />
+            <label for="correo" class="block text-white mb-2"
+              >Correo electrónico</label
+            >
+            <input
+              type="email"
+              id="correo"
+              name="correo"
+              class="w-full p-3 rounded-lg bg-white text-gray-800"
+              required
+            />
           </div>
           <div class="form-group">
-            <label for="personas" class="block text-white mb-2">Cuántas personas</label>
-            <input type="number" id="personas" name="personas" min="1" class="w-full p-3 rounded-lg bg-white text-gray-800" required />
+            <label for="personas" class="block text-white mb-2"
+              >Cuántas personas</label
+            >
+            <input
+              type="number"
+              id="personas"
+              name="personas"
+              min="1"
+              class="w-full p-3 rounded-lg bg-white text-gray-800"
+              required
+            />
           </div>
           <div class="form-group">
             <label for="fecha" class="block text-white mb-2">Fecha</label>
-            <input type="date" id="fecha" name="fecha" class="w-full p-3 rounded-lg bg-white text-gray-800" required />
+            <input
+              type="date"
+              id="fecha"
+              name="fecha"
+              class="w-full p-3 rounded-lg bg-white text-gray-800"
+              required
+            />
           </div>
           <div class="form-group">
             <label for="hora" class="block text-white mb-2">Hora</label>
-            <input type="time" id="hora" name="hora" class="w-full p-3 rounded-lg bg-white text-gray-800" required />
+            <input
+              type="time"
+              id="hora"
+              name="hora"
+              class="w-full p-3 rounded-lg bg-white text-gray-800"
+              required
+            />
           </div>
           <div class="form-group">
-          <label for="local" class="block text-white mb-2">Local</label>
-          <select id="local" name="local" class="w-full p-3 rounded-lg bg-white text-gray-800" required>
-          </select>
+            <label for="local" class="block text-white mb-2">Local</label>
+            <select
+              id="local"
+              name="local"
+              class="w-full p-3 rounded-lg bg-white text-gray-800"
+              required
+            ></select>
           </div>
           <div class="form-group col-span-2">
             <label for="nota" class="block text-white mb-2">Nota</label>
-            <textarea id="nota" name="nota" rows="3" class="w-full p-3 rounded-lg bg-white text-gray-800"></textarea>
+            <textarea
+              id="nota"
+              name="nota"
+              rows="3"
+              class="w-full p-3 rounded-lg bg-white text-gray-800"
+            ></textarea>
           </div>
           <div class="col-span-2 text-center mt-6">
-            <button type="submit" class="bg-blue-500 text-white py-3 px-8 rounded-lg text-xl hover:bg-blue-600 transition-all">ENVIAR</button>
+            <button
+              type="submit"
+              class="bg-blue-500 text-white py-3 px-8 rounded-lg text-xl hover:bg-blue-600 transition-all"
+            >
+              ENVIAR
+            </button>
           </div>
         </form>
       </div>
