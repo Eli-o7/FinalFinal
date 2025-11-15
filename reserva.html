@@ -10,18 +10,19 @@
   </head>
   <body class="bg-gray-100">
 
-    <header class="bg-[#273D62] text-white px-10 py-4 flex justify-between items-center">
-      <div class="logo">
-        <img src="imagenes/logo.jpg" alt="Logo 3R Regiones" class="h-12">
-      </div>
-      <nav>
-        <ul class="flex items-center gap-8">
-          <li><a href="carta.html" class="text-lg font-medium hover:text-[#F4F4F4]">Carta</a></li>
-          <li><a href="locales.html" class="text-lg font-medium hover:text-[#F4F4F4]">Locales</a></li>
-          <li><a href="nosotros.html" class="text-lg font-medium hover:text-[#F4F4F4]">Nosotros</a></li>
-          <li><a href="reserva.html" class="text-lg font-medium border-2 border-white px-4 py-2 rounded hover:bg-white hover:text-[#2c3e50] transition-all">Reserva</a></li>
-        </ul>
-      </nav>
+    <header>
+        <div class="logo">
+            <img src="imagenes/logo.jpg" alt="Logo 3R Regiones">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="carta.html">Carta</a></li>
+                <li><a href="locales.html">Locales</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="reserva.html" class="btn-reserva">Reserva</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="flex justify-center items-center min-h-[calc(100vh-80px)] p-4 relative">
@@ -29,8 +30,7 @@
            style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/18/bf/87/10/terrace-view.jpg');"></div>
       <div class="relative bg-black bg-opacity-50 p-8 rounded-lg max-w-4xl w-full z-10">
         <h1 class="text-4xl text-white text-center mb-6 font-serif tracking-widest">Reserva</h1>
-        
-        <form class="grid grid-cols-1 sm:grid-cols-2 gap-6" action="https://sheetdb.io/api/v1/ny06qif2e8ie2" method="post">
+        <form class="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div class="form-group">
             <label for="nombre" class="block text-white mb-2">Nombre</label>
             <input type="text" id="nombre" name="nombre" class="w-full p-3 rounded-lg bg-white text-gray-800" required />
@@ -52,8 +52,9 @@
             <input type="time" id="hora" name="hora" class="w-full p-3 rounded-lg bg-white text-gray-800" required />
           </div>
           <div class="form-group">
-            <label for="local" class="block text-white mb-2">Local</label>
-            <input type="text" id="local" name="local" class="w-full p-3 rounded-lg bg-white text-gray-800" required />
+          <label for="local" class="block text-white mb-2">Local</label>
+          <select id="local" name="local" class="w-full p-3 rounded-lg bg-white text-gray-800" required>
+          </select>
           </div>
           <div class="form-group col-span-2">
             <label for="nota" class="block text-white mb-2">Nota</label>
@@ -70,6 +71,6 @@
       <p>&copy; 2025 3R Regiones</p>
     </footer>
 
-    <script src="data/reserva.json"></script>
+    <script src="js/reserva.js"></script>
   </body>
 </html>
